@@ -1,1 +1,106 @@
 /* Other rules */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "System-ui", "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 26.7px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 20px;
+  height: 48px;
+  width: 298px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding-left: 10px;
+}
+
+button {
+  box-shadow: none;
+  outline: none;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 50px;
+  width: 305px;
+  border-radius: 10px;
+  background: #5c48d2;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+/* Step Two */
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results > div {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: rgb(242, 242, 242);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.results > div > span:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+footer > span {
+  font-weight: bold;
+}
